@@ -7,6 +7,7 @@ body{
 }
 .title{
     text-align: center;
+    font-size: 1.75em;
 
 }
 p {
@@ -25,47 +26,44 @@ p {
     margin: 50px 0px 80px 0px;
     }
 .col1,.col2,.col3{
-    border: 2px solid black;
+    border: 1px solid black;
     padding: 0 20px 20px 20px;
-    margin-right: 2%;
+    margin-right: 20px;
     float: left;
     position: relative;
     background-color: gainsboro;
 }
 header {
+    font-size: 1.25em;
     float: right;
     clear:both;
     height: 30px;
     width: 130px;
     position: relative;
-    bottom:2px;
+    bottom:1px;
     padding-top: 3px;
-    left:22px;
+    left:21px;
     text-align: center;
-    border: 2px solid black;
+    border: 1px solid black;
     }
     
 @media (min-width:992px){
     .col1,.col2,.col3 {
-        width: 30%;
-
-    }
-    .col2,.col3{
-        margin-left: 1%;
+        width: 31.5%;
     }
 }
 @media (min-width:768px) and (max-width:991px){
     .col1,.col2 {
-        width: 45%;
+        width: 47%;
     }
     .col3{
-        width: 93%;
-        margin-top: 2%;
+        width: 97%;
+        margin-top: 20px;
     }
 }
 @media (max-width:767px){
     .col1,.col2,.col3{
         width: 93%;
-        margin-top: 2%;
+        margin-top: 20px;
     }
 }
