@@ -2,10 +2,14 @@ body{
     color:black;
 }
 /**Header**/
-
+#header-container{
+    width: 100%;
+    background-color: aliceblue;
+}
 .navbar-header{
     background-color:  #949494;
     border: 1px solid black;
+    width: 100%;
 }
 .navbar a{
     text-align: center;
@@ -15,10 +19,16 @@ body{
 }
 
 .navbar .navbar-header .navbar-brand h1{
-    margin: 0;
+    margin: 0 0 0 20px;
     font-size: 26px;
     color: black;
 }
+
+.navbar .navbar-header .navbar-brand {
+    margin: 0;
+}
+
+
 .navbar-default .navbar-toggle .icon-bar{
     background-color:black;
 }
