@@ -56,13 +56,11 @@ ul.navbar-nav li a{
 
 }
 
-#section-chicken {
+#food-section {
     background-color:  #949494;
-    position: relative;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-bottom: 20px;
 }
-#section-chicken p{
+#food-section p{
     padding: 10px 5px 5px 5px;
 }
 
